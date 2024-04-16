@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: orangered;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logo-container{
+    margin-left: 20px;
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    padding: 14px;
+}
+
+.btn-container{
+    margin-right: 50px;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.left h1{
+    width: 18ch;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.left p{
+    font-size: 20px;
+    width: 70ch;
+    margin-bottom: 20px;
+}
+
+.left button{
+    align-self: flex-start;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: end;
+}
+
+.right img{
+    width: 20vw;
+    height: 50vh;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
